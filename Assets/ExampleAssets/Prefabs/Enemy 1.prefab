@@ -134,4 +134,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 2806160196778587562}
-  Player: {fileID: 0}
+  Player: {fileID: 6723206305189932180, guid: b81514251cfd31b4ab7f26302cee448a, type: 3}
