@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "Unity.unity-debug",
+    "vsls-contrib.gitdoc",
+    "Tobiah.unity-tools"
+  ]
+}
