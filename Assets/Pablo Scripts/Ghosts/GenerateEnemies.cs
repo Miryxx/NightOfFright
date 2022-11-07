@@ -19,8 +19,8 @@ public class GenerateEnemies : MonoBehaviour
     {
         while (enemyCount < 10)
         {
-            xPos = Random.Range(1, 50);
-            zPos = Random.Range(1, 31);
+            xPos = Random.Range(1, 10);
+            zPos = Random.Range(1, 10);
             Instantiate(theEnemy, new Vector3(xPos, 1, zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.1f);
             enemyCount += 1;
