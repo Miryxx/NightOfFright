@@ -2058,11 +2058,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7621a8629ec1b24daa67f4d2193f636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theEnemy: {fileID: 5606565532696102233, guid: 19821068f70052f48adeb4f7fbc1a595,
+  swarmerPrefab: {fileID: 8042642116599928008, guid: 23a8f9c08e46a5448b67f6e85254cb7d,
     type: 3}
-  xPos: 0
-  zPos: 0
-  enemyCount: 10
+  bigSwarmerPrefab: {fileID: 8042642116599928008, guid: 23a8f9c08e46a5448b67f6e85254cb7d,
+    type: 3}
+  swarmerInterval: 3.5
+  bigSwarmerInterval: 10
 --- !u!4 &1040456137
 Transform:
   m_ObjectHideFlags: 0
@@ -2071,7 +2072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040456135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.61, y: 0.47, z: 5.668}
+  m_LocalPosition: {x: -1.44, y: 2.35, z: 3.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

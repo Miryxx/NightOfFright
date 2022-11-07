@@ -4,27 +4,27 @@ using UnityEngine;
 
 public class GenerateEnemies : MonoBehaviour
 {
-    public GameObject theEnemy;
-    public int xPos;
-    public int zPos;
-    public int enemyCount;
+    [SerializeField]
+    private GameObject swarmerPrefab;
+    [SerializeField]
+    private GameObject bigSwarmerPrefab;
 
+    [SerializeField]
+    private float swarmerInterval = 3.5f;
+    [SerializeField]
+    private float bigSwarmerInterval = 10f;
 
+    // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(EnemyDrop());
+        StartCoroutine(spawnEnemy(swarmerInterval, swarmerPrefab));
+        StartCoroutine(spawnEnemy(bigSwarmerInterval, bigSwarmerPrefab));
     }
 
-    IEnumerator EnemyDrop()
+    private IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
-        while (enemyCount < 10)
-        {
-            xPos = Random.Range(1, 10);
-            zPos = Random.Range(1, 10);
-            Instantiate(theEnemy, new Vector3(xPos, 1, zPos), Quaternion.identity);
-            yield return new WaitForSeconds(0.1f);
-            enemyCount += 1;
-        }
+        yield return new WaitForSeconds(interval);
+        GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
+        StartCoroutine(spawnEnemy(interval, enemy));
     }
-
 }
