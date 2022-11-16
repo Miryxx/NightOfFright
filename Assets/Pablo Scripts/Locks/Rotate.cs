@@ -17,7 +17,7 @@ public class Rotate : MonoBehaviour
         numberShown = 5;
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
 
         if (coroutineAllowed)
