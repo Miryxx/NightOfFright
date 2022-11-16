@@ -7,8 +7,8 @@ public class LockControl : MonoBehaviour
     private int[] result, correctCombination;
     private void Start()
     {
-        result = new int[] { 5, 5, 5 };
-        correctCombination = new int[] { 3, 7, 9 };
+        result = new int[] { 5, 5, 5, 5 };
+        correctCombination = new int[] { 3, 7, 9, 1 };
         Rotate.Rotated += CheckResults;
     }
 
@@ -27,8 +27,12 @@ public class LockControl : MonoBehaviour
             case "wheel3":
                 result[2] = number;
                 break;
+
+            case "wheel4":
+                result[3] = number;
+                break;
         }
-        if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2])
+        if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2] && result[3] == correctCombination[3])
         {
             Debug.Log("Opened!");
         }
