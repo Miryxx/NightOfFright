@@ -17,12 +17,16 @@ public class Rotate : MonoBehaviour
         numberShown = 5;
     }
 
-    private void OnMouseDown()
+    public void Turn()
     {
-
-        if (coroutineAllowed)
+        if (Input.GetKeyDown("A"))
         {
-            StartCoroutine("RotateWheel");
+
+            if (coroutineAllowed)
+            {
+                StartCoroutine("RotateWheel");
+            }
+
         }
     }
     private IEnumerator RotateWheel()
