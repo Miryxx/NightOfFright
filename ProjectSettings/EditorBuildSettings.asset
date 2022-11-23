@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PabloScene.unity
     guid: 7160dfc2cb400e14aa1cd6acc72c4a54
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: 576b6db90e65b4944b5fc2db3f013b81
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
