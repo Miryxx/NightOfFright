@@ -11,10 +11,12 @@ public class Rotate : MonoBehaviour
 
     private int numberShown;
 
+    public bool rotate;
+
     private void Start()
     {
         coroutineAllowed = true;
-        numberShown = 5;
+        numberShown = 1;
     }
 
     public void Turn()
