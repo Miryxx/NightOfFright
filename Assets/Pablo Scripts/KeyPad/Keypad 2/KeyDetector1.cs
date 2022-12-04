@@ -26,12 +26,12 @@ public class KeyDetector1 : MonoBehaviour
             {
                 var keyFeedBack = other.gameObject.GetComponent<KeyFeedback>();
 
-                if (key.text == "Back")
+                if (key.text == "Back2")
                 {
                     if (display.text.Length > 0)
                         display.text = display.text.Substring(0, display.text.Length - 1);
                 }
-                else if (key.text == "Enter")
+                else if (key.text == "Enter2")
                 {
                     var accessGranted = false;
                     bool onlyNumbers = int.TryParse(display.text, out int value);
@@ -49,7 +49,7 @@ public class KeyDetector1 : MonoBehaviour
                         display.text = "Retry";
                     }
                 }
-                else if (key.text == "Cancel")
+                else if (key.text == "Cancel2")
                 {
                     display.text = "";
                 }

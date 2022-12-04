@@ -17,6 +17,7 @@ TagManager:
   - Display4
   - KeyButton3
   - KeyButton4
+  - KeyButton2
   layers:
   - Default
   - TransparentFX

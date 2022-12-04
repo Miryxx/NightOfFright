@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class KeyPadControll1 : MonoBehaviour
+public class KeyPadControll : MonoBehaviour
 {
 
     public int correctCombination;
@@ -18,9 +18,7 @@ public class KeyPadControll1 : MonoBehaviour
     {
         if (accessGranted == true)
         {
-            //Do whatever you action you want to take when the user hits the correct key.
-            spotLight.enabled = true;
-            accessGranted = false;
+            Destroy(this);
         }
     }
 
