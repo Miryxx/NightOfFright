@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KeyPadControll2 : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class KeyPadControll2 : MonoBehaviour
     {
         if (accessGranted == true)
         {
-            Destroy(this);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 

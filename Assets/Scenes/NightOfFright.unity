@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b67a3efe72560a64b878f31c3d933746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctCombination: 1234
+  correctCombination: 9999
   accessGranted: 0
   spotLight: {fileID: 0}
 --- !u!1 &291000780 stripped
@@ -1695,27 +1695,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!1 &526690003 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1378308781501189856, guid: c8f2b931d37cce640842603960571cb1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1319394449}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &526690006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526690003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1d670158b683e742a916e7f356bce80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctCombination: 0
-  accessGranted: 0
-  spotLight: {fileID: 0}
 --- !u!1001 &590359877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2618,7 +2597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730693628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5586, y: 0.5724, z: 0.964}
+  m_LocalPosition: {x: 0.6403, y: 0.5437, z: 0.964}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3082,7 +3061,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820214849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3686, y: 0.5724, z: 0.964}
+  m_LocalPosition: {x: 0.4215, y: 0.5417, z: 0.9599}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3475,156 +3454,6 @@ Transform:
   m_Father: {fileID: 1850940764}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1319394449
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1378308780428963955, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308780782203551, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_text
-      value: Back2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308780957971323, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781209685681, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781277918004, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781476532426, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189856, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_Name
-      value: Keypad 1 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.5962
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.6017
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.0237
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.76203275
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.64753854
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -80.713
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781501189857, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781614815239, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_text
-      value: Cancel2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781780833960, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308781901863855, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_text
-      value: Enter2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782152213200, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: Display2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782224701433, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782299517636, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782306026478, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782353745725, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782547781046, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378308782559601447, guid: c8f2b931d37cce640842603960571cb1,
-        type: 3}
-      propertyPath: m_TagString
-      value: KeypadButton2
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1378308781501189858, guid: c8f2b931d37cce640842603960571cb1, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: c8f2b931d37cce640842603960571cb1, type: 3}
 --- !u!1001 &1355718664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4491,6 +4320,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1378308780807441715, guid: c8f2b931d37cce640842603960571cb1,
+        type: 3}
+      propertyPath: m_text
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378308780807441715, guid: c8f2b931d37cce640842603960571cb1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378308780807441715, guid: c8f2b931d37cce640842603960571cb1,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1378308781501189856, guid: c8f2b931d37cce640842603960571cb1,
         type: 3}
       propertyPath: m_Name
