@@ -5,18 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NightOfFright.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Scenes/PabloScene.unity
     guid: 7160dfc2cb400e14aa1cd6acc72c4a54
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: d0ced84d16cf747428534cc9811d7eb4
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 785e2a00d4cbcd447afd9b0ce73fb701
+  - enabled: 1
+    path: Assets/Scenes/Ian_Level_1.unity
+    guid: ece9ff201b4aff24b9be6a9ea07e63fd
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 5bbf74f8927ec9642a9b6492bbd4beee
+  - enabled: 1
+    path: Assets/Scenes/LoseScreen.unity
+    guid: 769b0c66b4a040c409a22af7cec154b7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
