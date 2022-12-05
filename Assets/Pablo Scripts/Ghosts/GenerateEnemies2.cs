@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GenerateEnemies : MonoBehaviour
+public class GenerateEnemies2 : MonoBehaviour
 
 {
     [SerializeField]
@@ -27,7 +27,7 @@ public class GenerateEnemies : MonoBehaviour
     private IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
         yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemy, new Vector3(-7f, 3.5f, 15f), Quaternion.identity);
+        GameObject newEnemy = Instantiate(enemy, new Vector3(-7f, 3f, -21f), Quaternion.identity);
         StartCoroutine(spawnEnemy(interval, enemy));
     }
 }
