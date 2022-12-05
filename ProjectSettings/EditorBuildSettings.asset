@@ -11,8 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PabloScene.unity
     guid: 7160dfc2cb400e14aa1cd6acc72c4a54
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d0ced84d16cf747428534cc9811d7eb4
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 785e2a00d4cbcd447afd9b0ce73fb701
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 623f77ff01d2b1b4d8832c4977b55f26,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ad4050bc0deda4e238354e959df0f1f4,
       type: 2}
