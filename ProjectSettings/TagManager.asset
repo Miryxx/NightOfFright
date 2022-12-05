@@ -5,6 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Keypad
+  - KeypadButton
+  - Display
+  - KeypadButton2
+  - Display2
+  - Keypad2
+  - Keypad3
+  - Keypad4
+  - Display3
+  - Display4
+  - KeyButton3
+  - KeyButton4
+  - KeyButton2
   layers:
   - Default
   - TransparentFX
