@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class KeyPadControll : MonoBehaviour
+public class KeyPadControll4 : MonoBehaviour
 {
 
     public int correctCombination;
@@ -16,7 +16,7 @@ public class KeyPadControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(accessGranted == true)
+        if (accessGranted == true)
         {
             //Do whatever you action you want to take when the user hits the correct key.
             spotLight.enabled = true;
@@ -27,7 +27,7 @@ public class KeyPadControll : MonoBehaviour
 
     public bool CheckIfCorrect(int combination)
     {
-        if(combination == correctCombination)
+        if (combination == correctCombination)
         {
             accessGranted = true;
             return true;
