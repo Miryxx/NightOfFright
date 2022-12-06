@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: d0ced84d16cf747428534cc9811d7eb4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 785e2a00d4cbcd447afd9b0ce73fb701
   - enabled: 1
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoseScreen.unity
     guid: 769b0c66b4a040c409a22af7cec154b7
+  - enabled: 0
+    path: Assets/Scenes/AlexisScene.unity
+    guid: 370d89bac2bea3b41aba38d31ebac65d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
