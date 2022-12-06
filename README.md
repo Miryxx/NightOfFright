@@ -1,9 +1,5 @@
-# Multi Modal Design
+Night of Fright is a VR game where you must fight off ghosts with your flashlight, and solve the correct code written on the door in order to input codes into the keypad. Once the right code is typed, you win!
 
-This course leverages Unity's Learn to Create VR Tutorials to prepare you to create an original VR research project.
+The design objective of this project was to create a tense atmosphere that is spooky without being frightening, while giving players a challenge and making them think. 
 
-Each lab is completed inside this repository. When a lab has been completed, you can
-create a submission by recording the required video and creating the required tag.
-
-Additional tutorials and materials will be published to this repository, which can be
-merged into your fork.
+Future work would be to make a new keypad model, and potentially add more puzzles to the game to expand upon it. 
